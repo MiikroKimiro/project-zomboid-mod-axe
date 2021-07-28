@@ -51,7 +51,7 @@ module AxeCraft
 	recipe Sharpen Axe Head
 	{
 		destroy SharpedStone/Stone,
-		destroy Belt,
+		destroy Belt2,
 		WornAxeHead,
 		
 		Result:AxeHead,
@@ -62,7 +62,7 @@ module AxeCraft
 	recipe Sharpen Axe Head
 	{
 		destroy SharpedStone/Stone,
-		destroy Belt,
+		destroy Belt2,
 		WornMakeshiftAxe,
 		
 		Result:MakeshiftAxe,
@@ -208,6 +208,8 @@ module AxeCraft
         TwoHandWeapon = TRUE,
         BreakSound  =   PZ_WoodSnap,
         TreeDamage  =   35,
+	AttachmentType = BigWeapon,
+	Tags = ChopTree;CutPlant,
 	}
 
 	item WornAxeHead
@@ -254,6 +256,8 @@ module AxeCraft
         TwoHandWeapon = TRUE,
         BreakSound  =   PZ_WoodSnap,
         TreeDamage  =   25,
+	AttachmentType = BigWeapon,
+	Tags = ChopTree;CutPlant,
 	}
 
 	item BluntAxeHead
@@ -300,5 +304,7 @@ module AxeCraft
         TwoHandWeapon = TRUE,
         BreakSound  =   PZ_WoodSnap,
         TreeDamage  =   20,
+	AttachmentType = BigWeapon,
+	Tags = ChopTree;CutPlant,
 	}
 }
