@@ -36,6 +36,8 @@ module Base
         TwoHandWeapon = TRUE,
         BreakSound  =   PZ_WoodSnap,
         TreeDamage  =   35,
+	AttachmentType = BigWeapon,
+	Tags = ChopTree;CutPlant,
 	}
 
 }
